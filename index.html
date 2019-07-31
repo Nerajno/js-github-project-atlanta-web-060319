@@ -11,20 +11,28 @@
   <div id='main'>
 
     <h2>GitHub Search</h2>
-
     <form id='github-form'>
       <input id='search' type='text' name='search'>
       <input type='submit' name='submit'/>
     </form>
 
     <div id='github-container'>
-      <ul id='user-list'>
+        <ul id='user_info'>
+          <h4>Searched User Info</h4>
+          <!-- contains user info -->
+          <!-- profile_link, image, searched_user, repos changes with new search -->
+        </ul>
+        <ul id='repos-list'>
+            <h4>User's Repo</h4>
+          <!-- contains user's repo list -->
+          <!-- list of repos which chages with new search -->
+        </ul>
+        <ul id="search-results">
+          <h4>Searched Users</h4>
+         <!-- contains list of searched names  -->
+         <!-- each search get appended here on search -->
 
-      </ul>
-
-      <ul id='repos-list'>
-
-      </ul>
+        </ul>
     </div>
 
   </div>
